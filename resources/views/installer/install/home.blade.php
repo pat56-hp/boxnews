@@ -9,7 +9,8 @@
                 @lang('installer.requirements.title')
             </h3>
         </div>
-        <div class="panel-body">
+        <!-- commentaire -->
+        <div class="panel-body test">
             <div class="bs-component">
                 <ul class="list-group">
                     @foreach($requirements['requirements'] as $element => $enabled)
